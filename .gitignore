@@ -1,0 +1,28 @@
+# credentials
+firmware/main/secrets.h
+
+# build artifacts
+build/
+*/build/
+firmware/build/
+
+# python
+__pycache__/
+*.pyc
+
+# logs
+broker/*.log
+broker/*.err
+
+# third-party / large repos (clone per README.md)
+irext_database/
+irext_core/
+IRbaby_ESP32/
+IRbaby_SDK/
+xiaomi_lab/
+
+# editors / OS
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini

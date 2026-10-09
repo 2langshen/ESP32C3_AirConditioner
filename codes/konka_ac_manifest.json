@@ -1,0 +1,62 @@
+[
+  {
+    "index_id": 3557,
+    "protocol": "new_ac",
+    "remote": "2807",
+    "binary_md5": "f05613d5abc01be3311b3d6dc71db41e",
+    "file": "irda_new_ac_2807.bin",
+    "found": true,
+    "size": 309,
+    "md5_match": true,
+    "md5_actual": "f05613d5abc01be3311b3d6dc71db41e",
+    "dest": "C:\\Users\\20121\\Desktop\\opencode-things\\ac_remote\\codes\\konka_ac_3557.bin"
+  },
+  {
+    "index_id": 3558,
+    "protocol": "new_ac",
+    "remote": "5372",
+    "binary_md5": "7000ef8237079989c03d3725b4c013ed",
+    "file": "irda_new_ac_5372.bin",
+    "found": true,
+    "size": 226,
+    "md5_match": true,
+    "md5_actual": "7000ef8237079989c03d3725b4c013ed",
+    "dest": "C:\\Users\\20121\\Desktop\\opencode-things\\ac_remote\\codes\\konka_ac_3558.bin"
+  },
+  {
+    "index_id": 3559,
+    "protocol": "new_ac",
+    "remote": "3657",
+    "binary_md5": "bce42fc9298a7fbc073b959efcf2e9f9",
+    "file": "irda_new_ac_3657.bin",
+    "found": true,
+    "size": 284,
+    "md5_match": true,
+    "md5_actual": "bce42fc9298a7fbc073b959efcf2e9f9",
+    "dest": "C:\\Users\\20121\\Desktop\\opencode-things\\ac_remote\\codes\\konka_ac_3559.bin"
+  },
+  {
+    "index_id": 3560,
+    "protocol": "new_ac",
+    "remote": "3327",
+    "binary_md5": "ac8d7b2f631497169b11d4ecd5582958",
+    "file": "irda_new_ac_3327.bin",
+    "found": true,
+    "size": 277,
+    "md5_match": true,
+    "md5_actual": "ac8d7b2f631497169b11d4ecd5582958",
+    "dest": "C:\\Users\\20121\\Desktop\\opencode-things\\ac_remote\\codes\\konka_ac_3560.bin"
+  },
+  {
+    "index_id": 3561,
+    "protocol": "new_ac",
+    "remote": "3022",
+    "binary_md5": "1b58ab9f63896e08fb8114a85f447874",
+    "file": "irda_new_ac_3022.bin",
+    "found": true,
+    "size": 309,
+    "md5_match": true,
+    "md5_actual": "1b58ab9f63896e08fb8114a85f447874",
+    "dest": "C:\\Users\\20121\\Desktop\\opencode-things\\ac_remote\\codes\\konka_ac_3561.bin"
+  }
+]

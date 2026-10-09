@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "profile": {
+    "industryId": "2",
+    "sceneId": "22",
+    "categoryId": "1100",
+    "productId": "your_product_id"
+  },
+  "properties": [
+    {
+      "identifier": "switch",
+      "name": "开关",
+      "functionType": "st",
+      "accessMode": "rw",
+      "desc": "",
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "true": "开",
+          "false": "关"
+        }
+      },
+      "functionMode": "property",
+      "required": false
+    },
+    {
+      "identifier": "workMode",
+      "name": "工作模式",
+      "functionType": "st",
+      "accessMode": "rw",
+      "desc": "0=制热 1=制冷 2=除湿 3=送风 4=自动",
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "制热",
+          "1": "制冷",
+          "2": "除湿",
+          "3": "送风",
+          "4": "自动"
+        }
+      },
+      "functionMode": "property",
+      "required": false
+    },
+    {
+      "identifier": "targetTemperature",
+      "name": "目标温度",
+      "functionType": "st",
+      "accessMode": "rw",
+      "desc": "",
+      "dataType": {
+        "type": "int64",
+        "specs": {
+          "max": "30",
+          "min": "16",
+          "step": "1",
+          "unit": "℃"
+        }
+      },
+      "functionMode": "property",
+      "required": false
+    },
+    {
+      "identifier": "windSpeed",
+      "name": "风速",
+      "functionType": "st",
+      "accessMode": "rw",
+      "desc": "0=1级 1=2级 2=3级 3=自动",
+      "dataType": {
+        "type": "enum",
+        "specs": {
+          "0": "1级",
+          "1": "2级",
+          "2": "3级",
+          "3": "自动"
+        }
+      },
+      "functionMode": "property",
+      "required": false
+    },
+    {
+      "identifier": "seesawWind",
+      "name": "上下摆风",
+      "functionType": "st",
+      "accessMode": "rw",
+      "desc": "",
+      "dataType": {
+        "type": "bool",
+        "specs": {
+          "true": "开",
+          "false": "关"
+        }
+      },
+      "functionMode": "property",
+      "required": false
+    }
+  ],
+  "events": [],
+  "services": [],
+  "combs": []
+}
